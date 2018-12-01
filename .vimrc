@@ -1,6 +1,6 @@
 """"""""""""""""""""""PERSONALISATION"""""""
 set number 
-
+set scrolloff=19
 syntax on  
 set relativenumber
 set nocompatible
@@ -15,6 +15,7 @@ call plug#begin()
 	Plug 'HenryNewcomer/vim-theme-papaya'
 	Plug 'tpope/vim-surround'
 	Plug 'tpope/vim-fugitive'
+	Plug 'suan/vim-instant-markdown'
 
 call plug#end()
 
