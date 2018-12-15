@@ -15,6 +15,7 @@ set undodir=~/.vim/undodir "historique des annulation (u)"
 
 call plug#begin()
 
+    Plug 'junegunn/gv.vim'
 	Plug 'scrooloose/nerdtree'
     Plug 'johngrib/vim-game-snake'
 	Plug 'vim-airline/vim-airline'
