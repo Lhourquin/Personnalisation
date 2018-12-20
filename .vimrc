@@ -1,6 +1,7 @@
 
 """"""""""""""""""""""PERSONALISATION"""""""
 set number 
+filetype plugin indent on
 set scrolloff=19
 syntax on  
 set relativenumber
@@ -16,6 +17,7 @@ set undodir=~/.vim/undodir "historique des annulation (u)"
 call plug#begin()
 
     Plug 'junegunn/gv.vim'
+    Plug 'miripiruni/vim-better-css-indent'
 	Plug 'scrooloose/nerdtree'
     Plug 'johngrib/vim-game-snake'
 	Plug 'vim-airline/vim-airline'
