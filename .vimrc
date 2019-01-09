@@ -18,6 +18,7 @@ call plug#begin()
 
     Plug 'junegunn/gv.vim'
     Plug 'miripiruni/vim-better-css-indent'
+    Plug 'shmargum/vim-sass-colors'
 	Plug 'scrooloose/nerdtree'
     Plug 'johngrib/vim-game-snake'
 	Plug 'vim-airline/vim-airline'
