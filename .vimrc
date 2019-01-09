@@ -22,6 +22,7 @@ call plug#begin()
 	Plug 'scrooloose/nerdtree'
     Plug 'johngrib/vim-game-snake'
 	Plug 'vim-airline/vim-airline'
+    Plug 'valloric/youcompleteme'
     Plug 'ervandew/supertab'
     Plug 'mattn/emmet-vim'
 	Plug 't9md/vim-choosewin'
